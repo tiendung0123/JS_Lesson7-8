@@ -20,12 +20,58 @@
                     </div>
                     <div class="card-body">
                         <div class="form-group">
-                            <label>Nhập số tự nhiên</label>
+                            <label>Nhập số tự nhiên in ra số sao</label>
                             <input id="nhapSo" type="number" class="form-control">
                         </div>
-                        <button id="btnInSao" class="btn btn-danger">Tính</button>
+                        <button id="btnInSao" class="btn btn-danger">In sao</button>
                     </div>
                     <div id="result" class="card-footer text-muted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Bài tập JS buổi 7 & 8
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập số nguyên</label>
+                            <input id="inputNumber" type="number" class="form-control">
+                        </div>
+                        <button id="addNumber" class="btn btn-danger" onclick="NhapThemSo()">Thêm số</button>
+                        <br>
+                        <br>
+                        <button id="tongSoDuong" class="btn btn-success" onclick="TongSoDuong()">Tổng các số dương</button>
+                        <button class="btn btn-success" onclick="soDuongTrongMang()">Số dương trong mảng</button>
+                        <button class="btn btn-success mt-3" onclick="soNhoNhat()"> Số nhỏ nhất trong mảng</button>
+                        <button class="btn btn-success mt-3" onclick="soDuongNhoNhat()"> Số dương nhỏ nhất trong mảng</button>
+                        <button class="btn btn-success mt-3" onclick="soChanCuoiCung()"> Số chẵn cuối cùng trong mảng</button>
+                        <div class="form-group mt-3">
+                          <label for="">Đổi vị trí số thứ : </label>
+                          <input type="text" name="" id="soThuNhat" class="form-control">
+                          <label for="">Cho số thứ : </label>
+                          <input type="text" name="" id="soThuHai" class="form-control">
+                          <button class="btn btn-success mt-3" onclick="doiViTri()"> Đổi vị trí</button>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p id="showlistNumber"></p>
+                        <p id="inTongSoDuong"></p>
+                        <p id="soDuong"></p>
+                        <p id="soNhoNhat"></p>
+                        <p id="soDuongNhoNhat"></p>
+                        <p id="soChanCuoiCung"></p>
+                        <p id="đổi vị trí"></p>
+
+
+
                     </div>
                 </div>
             </div>
